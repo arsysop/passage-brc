@@ -21,13 +21,24 @@
 -->
 <site>
 	<feature
-		url="features/ru.arsysop.passage.brc.feature_0.3.0.qualifier.jar"
-		id="ru.arsysop.passage.brc.feature"
-		version="0.3.0.qualifier" />
+		url="features/ru.arsysop.passage.brc.license.feature_0.3.1.qualifier.jar"
+		id="ru.arsysop.passage.brc.license.feature"
+		version="0.3.1.qualifier" />
+	<feature
+		url="features/ru.arsysop.passage.brc.bc.feature_0.3.1.qualifier.jar"
+		id="ru.arsysop.passage.brc.bc.feature"
+		version="0.3.1.qualifier">
+		<category name="ru.arsysop.passage.brc.category" />
+	</feature>
+	<feature
+		url="features/ru.arsysop.passage.brc.oshi.feature_0.3.1.qualifier.jar"
+		id="ru.arsysop.passage.brc.oshi.feature"
+		version="0.3.1.qualifier">
+		<category name="ru.arsysop.passage.brc.category" />
+	</feature>
 	<category-def
 		name="ru.arsysop.passage.brc.category"
-		label="Passage BRC"
-	>
+		label="Passage BRC">
 		<description>
 			Passage Binary Resources and Components
 		</description>

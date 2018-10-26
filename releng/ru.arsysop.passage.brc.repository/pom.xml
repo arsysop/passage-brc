@@ -31,7 +31,7 @@
 	<parent>
 		<groupId>ru.arsysop.passage.brc</groupId>
 		<artifactId>ru.arsysop.passage.brc.parent</artifactId>
-		<version>0.3.0-SNAPSHOT</version>
+		<version>0.3.1</version>
 		<relativePath>../../releng/ru.arsysop.passage.brc.parent</relativePath>
 	</parent>
 </project>
