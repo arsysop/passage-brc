@@ -31,7 +31,7 @@
 
 	<groupId>ru.arsysop.passage.brc</groupId>
 	<artifactId>ru.arsysop.passage.brc.root</artifactId>
-	<version>0.3.1-SNAPSHOT</version>
+	<version>0.3.1</version>
 	<packaging>pom</packaging>
 
 	<modules>
