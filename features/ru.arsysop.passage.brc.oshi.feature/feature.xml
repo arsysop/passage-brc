@@ -20,10 +20,12 @@
 		ArSysOp - initial API and implementation
 -->
 <feature
-      id="ru.arsysop.passage.brc.feature"
+      id="ru.arsysop.passage.brc.oshi.feature"
       label="%featureName"
-      version="0.3.0.qualifier"
-      provider-name="%providerName">
+      version="0.3.1.qualifier"
+      provider-name="%providerName"
+      license-feature="ru.arsysop.passage.brc.license.feature"
+      license-feature-version="0.3.1">
 
    <description>
       %description
@@ -36,13 +38,6 @@
    <license url="%licenseURL">
       %license
    </license>
-
-   <plugin
-         id="ru.arsysop.passage.brc.bc"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
 
    <plugin
          id="ru.arsysop.passage.brc.jna"
