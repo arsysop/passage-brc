@@ -22,7 +22,7 @@
 <feature
       id="ru.arsysop.passage.brc.license.feature"
       label="Passage License"
-      version="0.3.1.qualifier">
+      version="0.3.2.qualifier">
 
    <description>
       Passage License
