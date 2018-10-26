@@ -21,13 +21,18 @@
 -->
 <site>
 	<feature
+		url="features/ru.arsysop.passage.brc.license.feature_0.3.1.qualifier.jar"
+		id="ru.arsysop.passage.brc.license.feature"
+		version="0.3.1.qualifier" />
+	<feature
 		url="features/ru.arsysop.passage.brc.feature_0.3.1.qualifier.jar"
 		id="ru.arsysop.passage.brc.feature"
-		version="0.3.1.qualifier" />
+		version="0.3.1.qualifier">
+		<category name="ru.arsysop.ek.equinox.category" />
+	</feature>
 	<category-def
 		name="ru.arsysop.passage.brc.category"
-		label="Passage BRC"
-	>
+		label="Passage BRC">
 		<description>
 			Passage Binary Resources and Components
 		</description>
