@@ -28,7 +28,9 @@ SPDX-License-Identifier: Apache-2.0
 The project maintains the following source code repositories:
 
  * https://github.com/arsysop/passage-brc
- * https://github.com/arsysop/passage-runtime
+ * https://github.com/arsysop/passage-licensing-runtime
+ * https://github.com/arsysop/passage-licensing-operator
+ * https://github.com/arsysop/passage-licensing-server
 
 ## Third-party Content
 
