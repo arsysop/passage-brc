@@ -25,12 +25,6 @@
 		id="ru.arsysop.passage.brc.license.feature"
 		version="0.3.2.qualifier" />
 	<feature
-		url="features/ru.arsysop.passage.brc.bc.feature_0.3.2.qualifier.jar"
-		id="ru.arsysop.passage.brc.bc.feature"
-		version="0.3.2.qualifier">
-		<category name="ru.arsysop.passage.brc.category" />
-	</feature>
-	<feature
 		url="features/ru.arsysop.passage.brc.oshi.feature_0.3.2.qualifier.jar"
 		id="ru.arsysop.passage.brc.oshi.feature"
 		version="0.3.2.qualifier">
