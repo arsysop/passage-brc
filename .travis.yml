@@ -6,6 +6,7 @@ jdk:
 notifications:
   email:
     - alexander.fedorov@arsysop.ru
+    - sergei.kovalchuk@arsysop.ru
     
 cache:
   directories:
@@ -15,4 +16,4 @@ before_install: echo "MAVEN_OPTS='-Xmx2048m'" > ~/.mavenrc
 
 install: true
 
-script: mvn clean verify -X
+script: mvn clean verify
