@@ -1,17 +1,16 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: ru.arsysop.passage.brc.oshi
-Bundle-Version: 3.8.4.qualifier
+Bundle-Version: 3.8.0.qualifier
 Bundle-Name: %Bundle-Name
 Bundle-Vendor: %Bundle-Vendor
 Bundle-Copyright: %Bundle-Copyright
 Bundle-License: https://www.apache.org/licenses/LICENSE-2.0
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: org.slf4j.api;bundle-version="0.0.0",
- ru.arsysop.passage.brc.jna;bundle-version="4.5.0"
-Bundle-ClassPath: lib/jna-4.5.2.jar,
- lib/jna-platform-4.5.2.jar,
- lib/oshi-core-3.8.4.jar
+ com.sun.jna;bundle-version="4.5.1",
+ com.sun.jna.platform;bundle-version="4.5.1"
+Bundle-ClassPath: lib/oshi-core-3.8.0.jar
 Export-Package: oshi,
  oshi.hardware,
  oshi.software.os,
