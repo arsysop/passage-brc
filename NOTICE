@@ -1,6 +1,6 @@
 # Notices for Passage Binary Resources and Components
 
-This content is produced and maintained by the ArSysOp Passage project.
+This content is produced and maintained by the ArSysOp Passage team.
 
  * Project home: http://arsysop.ru
 
@@ -40,19 +40,19 @@ BouncyCastle (1.59)
  * Project: http://www.bouncycastle.org/java.html
  * Source: https://github.com/bcgit/bc-java
 
-oshi-core (3.8.4)
+oshi-core (3.8.0)
 
  * License: EPL-1.0, https://www.eclipse.org/legal/epl-v10.html
  * Project: https://github.com/oshi/oshi
  * Source: https://github.com/oshi/oshi
 
-JNA (4.5.2)
+JNA (4.5.1)
 
  * License: LGPL 2.1 and Apache 2.0, https://github.com/java-native-access/jna/blob/master/LICENSE
  * Project: https://github.com/java-native-access/jna
  * Source: https://github.com/java-native-access/jna
 
-SLF4J (1.7.2)
+SLF4J (1.7.10)
 
  * License: MIT, https://www.slf4j.org/license.html
  * Project: https://www.slf4j.org/

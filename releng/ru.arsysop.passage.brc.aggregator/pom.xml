@@ -27,7 +27,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ru.arsysop.passage.brc</groupId>
 	<artifactId>ru.arsysop.passage.brc.aggregator</artifactId>
-	<version>0.3.1</version>
+	<version>0.3.2</version>
 	<packaging>pom</packaging>
 
 	<modules>
@@ -35,10 +35,6 @@
 
 		<module>..\..\features\ru.arsysop.passage.brc.license.feature</module>
 
-		<module>..\..\bundles\ru.arsysop.passage.brc.bc</module>
-		<module>..\..\features\ru.arsysop.passage.brc.bc.feature</module>
-
-		<module>..\..\bundles\ru.arsysop.passage.brc.jna</module>
 		<module>..\..\bundles\ru.arsysop.passage.brc.oshi</module>
 		<module>..\..\features\ru.arsysop.passage.brc.oshi.feature</module>
 		
