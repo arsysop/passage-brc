@@ -21,13 +21,13 @@
 -->
 <site>
 	<feature
-		url="features/ru.arsysop.passage.brc.license.feature_0.3.2.qualifier.jar"
+		url="features/ru.arsysop.passage.brc.license.feature_0.3.3.qualifier.jar"
 		id="ru.arsysop.passage.brc.license.feature"
-		version="0.3.2.qualifier" />
+		version="0.3.3.qualifier" />
 	<feature
-		url="features/ru.arsysop.passage.brc.oshi.feature_0.3.2.qualifier.jar"
+		url="features/ru.arsysop.passage.brc.oshi.feature_0.3.3.qualifier.jar"
 		id="ru.arsysop.passage.brc.oshi.feature"
-		version="0.3.2.qualifier">
+		version="0.3.3.qualifier">
 		<category name="ru.arsysop.passage.brc.category" />
 	</feature>
 	<category-def
