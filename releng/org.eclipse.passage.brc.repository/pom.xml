@@ -19,22 +19,19 @@
 	Contributors:
 		ArSysOp - initial API and implementation
 -->
-<site>
-	<feature
-		url="features/ru.arsysop.passage.brc.license.feature_0.3.3.qualifier.jar"
-		id="ru.arsysop.passage.brc.license.feature"
-		version="0.3.3.qualifier" />
-	<feature
-		url="features/ru.arsysop.passage.brc.oshi.feature_0.3.3.qualifier.jar"
-		id="ru.arsysop.passage.brc.oshi.feature"
-		version="0.3.3.qualifier">
-		<category name="ru.arsysop.passage.brc.category" />
-	</feature>
-	<category-def
-		name="ru.arsysop.passage.brc.category"
-		label="Passage BRC">
-		<description>
-			Passage Binary Resources and Components
-		</description>
-	</category-def>
-</site>
+<project
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>org.eclipse.passage.brc.repository</artifactId>
+	<packaging>eclipse-repository</packaging>
+
+	<parent>
+		<groupId>org.eclipse.passage.brc</groupId>
+		<artifactId>org.eclipse.passage.brc.parent</artifactId>
+		<version>0.3.3</version>
+		<relativePath>../../releng/org.eclipse.passage.brc.parent</relativePath>
+	</parent>
+</project>

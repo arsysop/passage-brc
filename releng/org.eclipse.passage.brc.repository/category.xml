@@ -19,19 +19,22 @@
 	Contributors:
 		ArSysOp - initial API and implementation
 -->
-<projectDescription>
-	<name>ru.arsysop.passage.brc.oshi.feature</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.pde.FeatureBuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-	</buildSpec>
-	<natures>
-		<nature>org.eclipse.pde.FeatureNature</nature>
-	</natures>
-</projectDescription>
+<site>
+	<feature
+		url="features/org.eclipse.passage.brc.license.feature_0.3.3.qualifier.jar"
+		id="org.eclipse.passage.brc.license.feature"
+		version="0.3.3.qualifier" />
+	<feature
+		url="features/org.eclipse.passage.brc.oshi.feature_0.3.3.qualifier.jar"
+		id="org.eclipse.passage.brc.oshi.feature"
+		version="0.3.3.qualifier">
+		<category name="org.eclipse.passage.brc.category" />
+	</feature>
+	<category-def
+		name="org.eclipse.passage.brc.category"
+		label="Passage BRC">
+		<description>
+			Passage Binary Resources and Components
+		</description>
+	</category-def>
+</site>

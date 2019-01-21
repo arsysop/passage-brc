@@ -20,30 +20,20 @@
 		ArSysOp - initial API and implementation
 -->
 <feature
-      id="ru.arsysop.passage.brc.oshi.feature"
-      label="%featureName"
-      version="0.3.3.qualifier"
-      provider-name="%providerName"
-      license-feature="ru.arsysop.passage.brc.license.feature"
-      license-feature-version="0.3.3">
+      id="org.eclipse.passage.brc.license.feature"
+      label="Passage License"
+      version="0.3.3.qualifier">
 
    <description>
-      %description
+      Passage License
    </description>
 
    <copyright>
-      %copyright
+      Copyright (c) 2018 ArSysOp
    </copyright>
 
-   <license url="%licenseURL">
+   <license url="%licenseUrl">
       %license
    </license>
-
-   <plugin
-         id="ru.arsysop.passage.brc.oshi"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
 
 </feature>

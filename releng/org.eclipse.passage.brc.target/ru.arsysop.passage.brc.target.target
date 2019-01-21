@@ -20,7 +20,7 @@
 		ArSysOp - initial API and implementation
 -->
 <?pde version="3.8"?>
-<target name="ru.arsysop.passage.brc.target" sequenceNumber="9">
+<target name="org.eclipse.passage.brc.target" sequenceNumber="9">
 	<locations>
 		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20180905201904/repository"/>
