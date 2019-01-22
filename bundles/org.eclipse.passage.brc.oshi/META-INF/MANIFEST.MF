@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-SymbolicName: ru.arsysop.passage.brc.oshi
+Bundle-SymbolicName: org.eclipse.passage.brc.oshi
 Bundle-Version: 3.8.0.qualifier
 Bundle-Name: %Bundle-Name
 Bundle-Vendor: %Bundle-Vendor
@@ -15,5 +15,5 @@ Export-Package: oshi,
  oshi.hardware,
  oshi.software.os,
  oshi.util
-Automatic-Module-Name: ru.arsysop.passage.brc.oshi
+Automatic-Module-Name: org.eclipse.passage.brc.oshi
 Eclipse-BundleShape: dir

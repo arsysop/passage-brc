@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright (c) 2018-2019 ArSysOp and others
+
+	This program and the accompanying materials are made available under the
+	terms of the Eclipse Public License 2.0 which is available at
+	http://www.eclipse.org/legal/epl-2.0.
+
+	SPDX-License-Identifier: EPL-2.0
+
+	Contributors:
+		ArSysOp - initial API and implementation
+-->
+<site>
+	<feature
+		url="features/org.eclipse.passage.brc.oshi.feature_0.3.3.qualifier.jar"
+		id="org.eclipse.passage.brc.oshi.feature"
+		version="0.3.3.qualifier">
+		<category name="org.eclipse.passage.brc.category" />
+	</feature>
+	<category-def
+		name="org.eclipse.passage.brc.category"
+		label="Passage BRC">
+		<description>
+			Passage Binary Resources and Components
+		</description>
+	</category-def>
+</site>
