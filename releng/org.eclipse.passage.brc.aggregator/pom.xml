@@ -33,8 +33,6 @@
 	<modules>
 		<module>..\..\releng\org.eclipse.passage.brc.target</module>
 
-		<module>..\..\features\org.eclipse.passage.brc.license.feature</module>
-
 		<module>..\..\bundles\org.eclipse.passage.brc.oshi</module>
 		<module>..\..\features\org.eclipse.passage.brc.oshi.feature</module>
 		

@@ -21,10 +21,6 @@
 -->
 <site>
 	<feature
-		url="features/org.eclipse.passage.brc.license.feature_0.3.3.qualifier.jar"
-		id="org.eclipse.passage.brc.license.feature"
-		version="0.3.3.qualifier" />
-	<feature
 		url="features/org.eclipse.passage.brc.oshi.feature_0.3.3.qualifier.jar"
 		id="org.eclipse.passage.brc.oshi.feature"
 		version="0.3.3.qualifier">
